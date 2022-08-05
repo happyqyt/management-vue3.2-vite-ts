@@ -1,0 +1,6 @@
+VERSION
+SERVICE.NAME=xxx-management-system
+
+SERVICE.VERSION=V1.0.0.0
+CHANGELOG
+【feat】项目搭建

@@ -1,0 +1,5 @@
+window.PAGECONF = {
+  hostApi: '{{ hostApi }}',
+  hostLogin: '{{ hostLogin }}',
+  appKey: '{{ appKey }}'
+}

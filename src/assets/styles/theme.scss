@@ -1,0 +1,24 @@
+/* 
+ * element variables: https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss
+ * 在这里覆盖element-plus的css变量
+ */
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #00C1BC,
+    )
+  ),
+);
+
+// 主题一
+$color-layout-bg: rgba(0,44,89);
+$color-layout-bg-active: rgba(0,193,187);
+$color-layout-sub-bg: rgba(0,56,98);
+$color-layout-text: rgba(255, 255, 255, 0.65);
+$color-layout-text-active: white;
+
+// :export {
+//   layoutBg: $color-layout-bg;
+//   layoutBgActive: $color-layout-bg-active;
+// }
